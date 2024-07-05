@@ -1,9 +1,12 @@
+# reverse of a string
 def reverse(x):
     return x[::1]
 
+# palindrome of a string
 def palindrome(x):
     return x.lower() == reverse(x.lower())
 
+# convert the string to lower case
 def convert_lower(x):
     return x.lower()
 
